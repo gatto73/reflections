@@ -25,10 +25,20 @@ directory I want to control by git.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+I can use the staging area to save all the modification applied to a file and do
+not loose them. When the logical change is complete I can commit the staged
+files.
+
 --------------------------------------------------------------------------------
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+- Develping some experimental features
+- Makeing a version of the project that have different behaviour from the
+  for different pourposes (example with a different language)
+
+--------------------------------------------------------------------------------
 
 How do the diagrams help you visualize the branch structure?
 
