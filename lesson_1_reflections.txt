@@ -1,0 +1,81 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+We start with a version of the prgram that was working. Then we analyse only the
+parts of the code that have been modified. This help to make sure we are
+checking all the partes that have been modified and do not miss any.
+Furthermore we can check if some part of the program has been modified by
+mistake.
+
+--------------------------------------------------------------------------------
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+I will be able to check the previous versions of the code in case some bug is
+introduced in the successive versions. I will not loose any change to the code
+by mistake. I will have always a backup of my files.
+
+--------------------------------------------------------------------------------
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+PROS
+====
+- In programming we want to save commint according to logical changes, this can
+be done only by letting the programmer to choose when to save.
+
+CONS
+====
+- There is the risk to make big changes forgetting to save regularly the files.
+But by a proper strategy of saving by logical changes this will be avoid.
+- The programmer could forget to save after he has applied a (logical) change.
+
+--------------------------------------------------------------------------------
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Services like Goole Docs are ment to store file that in most cases are not
+related to each other. Then it makes sense to manage the saving of the files
+differently.
+Git is ment to be used for code development. code is often managed by a program
+that is made by multiple files that are related to eache other. Then the commit
+will save the status of the program, not the status ao a single file.
+
+--------------------------------------------------------------------------------
+
+How can you use the commands git log and git diff to view the history of files?
+
+To view the history of all the commits in a repository:
+
+    $ git log
+
+To view the history of all the commits with some more information, add the
+option --stat:
+
+    $ git log --stat    
+
+To view the diff between to commints:
+
+    $ git diff id_old_commit id_new_commit
+
+--------------------------------------------------------------------------------
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+When I break something now I can go back to teh history of all the changes and
+see when the problem was introduced.
+
+--------------------------------------------------------------------------------
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use git and GitHub to manage my dotfiles, especially the configuration
+for spacemacs.
+
+--------------------------------------------------------------------------------
