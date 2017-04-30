@@ -54,6 +54,13 @@ commit is unreacheable.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result is that the modifications that were carried out in the two branches
+are both present in the merge.
+In the diagram we show that a merge has two parent commits and when we want to
+delete the branch we remove the label associated with the branch.
+
+--------------------------------------------------------------------------------
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 prova
