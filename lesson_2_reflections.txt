@@ -42,6 +42,15 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+The diagrams helps to:
+- Visualize that each commit has a link to the parent commit.
+- At the tip of a branch there is a label of the branch.
+- If I checkout a commit instead of the bramch, and then I commit some
+modification, I can see that there is no label for the commit and them the
+commit is unreacheable.
+
+--------------------------------------------------------------------------------
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
