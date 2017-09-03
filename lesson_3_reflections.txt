@@ -1,8 +1,8 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
 I would want to use a remote repository for the following pourposes:
-- Share code with some other people
+- Share code and collaborate with some other people
 - Have a backup of all my repositories in case of a problem on my local computer
 - Have access to the repository from everywhere
 - Work on the repository from different computer or even differnt OS on the same computer
-- Collaborate with other people
+
