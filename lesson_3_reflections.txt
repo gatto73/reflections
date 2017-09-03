@@ -6,4 +6,4 @@ I would want to use a remote repository for the following pourposes:
 - Have access to the repository from everywhere
 - Work on the repository from different computer or even differnt OS on the same computer
 
-# Net question goes here
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
